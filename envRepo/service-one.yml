@@ -1,5 +1,6 @@
-service:
-    name: servicei
+spring:
+    application:
+        name: servicei
 
 server:
     port: 8881
