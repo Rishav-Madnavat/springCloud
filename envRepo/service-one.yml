@@ -1,2 +1,6 @@
 service:
-    name: serviceI
+    name: servicei
+
+server:
+    port: 8881
+    
