@@ -1,0 +1,12 @@
+spring: 
+    application: 
+        name: springcloudconfig
+    cloud:
+        config: 
+            server:
+                git:
+                    uri: https://github.com/Rishav-Madnavat/springCloud.git
+                    default-label: envRepo
+
+sever:
+    port: 8888
