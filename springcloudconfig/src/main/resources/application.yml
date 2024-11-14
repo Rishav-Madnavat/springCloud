@@ -6,8 +6,9 @@ spring:
             server:
                 git:
                     uri: https://github.com/Rishav-Madnavat/springCloud.git
-                    basedir: envRepo
-                    default-label: main
+                    searchPaths: envRepo
+                    # basedir: envRepo
+                    default-label: envRepo
 
 server:
     port: 8888
