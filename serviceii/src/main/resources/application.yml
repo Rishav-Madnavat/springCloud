@@ -1,9 +1,6 @@
 spring:
     application:
-        name: servicei
+        name: serviceii
     config:
         import: "configserver:http://localhost:8888"
         fail-fast: true
-
-
-
